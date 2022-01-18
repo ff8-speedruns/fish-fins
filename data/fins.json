@@ -1009,7 +1009,7 @@
     {
         "index": 134,
         "tested": "o",
-        "pattern": "b sq24 qs27 sq27",
+        "pattern": "s sq24 qs27 sq27",
         "atbRefresh": 26,
         "drop": 6
     },
