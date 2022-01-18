@@ -36,8 +36,12 @@
 
         <div class="tab-content" id="TabContent">
             <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Pattern Input Mode</label>
+                <input class="form-check-input" type="checkbox" role="switch" id="patternInput">
+                <label class="form-check-label" for="patternInput">Pattern Input Mode</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="kaivelMode">
+                <label class="form-check-label" for="kaivelMode">Kaivel Mode</label>
             </div>
             <div class="tab-pane fade show active" id="wizard">
                 <div class="row">
@@ -192,7 +196,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Input Mode</h4>
-                                <h6>Because you're too cool.</h6>
+                                <h6 id="input-subtitle">Because you're too cool.</h6>
                                 <p class="card-text">
                                     <input type="text" class="form-control" name="pattern" id="pattern" />
                                 </p>

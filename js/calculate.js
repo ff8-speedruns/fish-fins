@@ -10,7 +10,8 @@
 let vals;
 
 // Inputs
-let inputSwitch = document.getElementById("flexSwitchCheckDefault");
+let inputSwitch = document.getElementById("patternInput");
+let kaivelMode = document.getElementById("kaivelMode");
 let wizardDiv = document.getElementById("wizard");
 let inputDiv = document.getElementById("inputmode");
 let inputBox = document.getElementById('pattern');
@@ -33,11 +34,18 @@ let p2 = document.getElementById('p2');
 let p3 = document.getElementById('p3');
 let gc = document.getElementById('gc');
 
+// Fun
+let subtitle = document.getElementById('input-subtitle');
+
 // Initialize & load data
 window.onload = async function () {
-    let fins = await fetch('./data/fins.json');
-    vals = await fins.json();
-    CalculatePattern();
+    loadData();
+}
+
+async function loadData (data = "fins") {
+        let fins = await fetch(`./data/${data}.json`);
+        vals = await fins.json();
+        CalculatePattern();
 }
 
 // Search for pattens automatically.
@@ -66,6 +74,19 @@ inputSwitch.addEventListener('change', function (e) {
     } else {
         wizardDiv.style.display = "block";
         inputDiv.style.display = "none";
+    }
+});
+
+// Handling KAIVEL, ALLO?!
+kaivelMode.addEventListener('change', async function (e) {
+    if (kaivelMode.checked) {
+        loadData("kaivel");
+        subtitle.innerHTML = "ALLO?!";
+        inputSwitch.checked = true;
+        inputSwitch.dispatchEvent(new Event('change'));
+    } else {
+        loadData();
+        subtitle.innerHTML = "Because you're too cool.";
     }
 });
 
@@ -128,8 +149,8 @@ function UpdateIndex(pat) {
                         <tr>
                             <th scope="row" id="index">${row.index}</th>
                             <td id="pat">${row.pattern}</td>
-                            <td id="atb">${row.atbRefresh}</td>
-                            <td id="drop">${row.drop}</td>
+                            <td id="atb">${row.atbRefresh ? row.atbRefresh : ""}</td>
+                            <td id="drop">${row.drop ? row.drop : ""}</td>
                             <td>${row.phase1Comment ? `Phase 1: ${row.phase1Comment}` : ""}<br />
                                 ${row.phase2Comment ? `Phase 2: ${row.phase2Comment}` : ""}<br />
                                 ${row.phase3Comment ? `Phase 3: ${row.phase3Comment}` : ""}<br />
