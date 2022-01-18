@@ -84,9 +84,11 @@ kaivelMode.addEventListener('change', async function (e) {
         subtitle.innerHTML = "ALLO?!";
         inputSwitch.checked = true;
         inputSwitch.dispatchEvent(new Event('change'));
+        inputSwitch.disabled = true;
     } else {
         loadData();
         subtitle.innerHTML = "Because you're too cool.";
+        inputSwitch.disabled = false;
     }
 });
 
