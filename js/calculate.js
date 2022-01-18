@@ -117,7 +117,6 @@ function CalculatePattern() {
     let pat = "";
     if (inputSwitch.checked) {
         pat = document.getElementById('pattern').value;
-        pat = pat.toLowerCase();
     } else {
         pat = GetRadioValue("battle_state") + " "
             + GetRadioValue("attack1") + GetTextValue("dmg1") + " "
@@ -144,7 +143,7 @@ function UpdateIndex(pat) {
 
     pat = pat.trim();
     pat = pat.replace(/ /g, '');
-    idx = vals.filter(element => element.pattern.toLowerCase().replace(/ /g, '').startsWith(pat));
+    idx = vals.filter(element => element.pattern.toLowerCase().replace(/ /g, '').startsWith(pat.toLowerCase()));
 
     var tableRows = "";
     idx.forEach((row) => {
