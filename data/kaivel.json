@@ -600,6 +600,66 @@
 		"pattern": "sa SQ17 qa QQ18"
 	},
 	{
+		"index": 150,
+		"pattern": "qa sa SQ27 QQ17"
+	},
+	{
+		"index": 151,
+		"pattern": "sa qa SQ27 QQ17"
+	},
+	{
+		"index": 152,
+		"pattern": "sa qa QQ27 SQ27"
+	},
+	{
+		"index": 153,
+		"pattern": "SQ18 sa qa QQ24"
+	},
+	{
+		"index": 154,
+		"pattern": "qa sa SQ18 QQ17"
+	},
+	{
+		"index": 155,
+		"pattern": "QQ18 sa qa SQ17"
+	},
+	{
+		"index": 156,
+		"pattern": "SQ18 sa qa QQ17"
+	},
+	{
+		"index": 157,
+		"pattern": "sa SS26 qa SQ24"
+	},
+	{
+		"index": 158,
+		"pattern": "qa QQ16 sa SQ24"
+	},
+	{
+		"index": 159,
+		"pattern": "QQ24 qa sa QQ26"
+	},
+	{
+		"index": 160,
+		"pattern": "sa qa SQ24 SS26 SS26"
+	},
+	{
+		"index": 161,
+		"pattern": "qa sa QQ17 QS18"
+	},
+	{
+		"index": 162,
+		"pattern": "qa sa QQ24 QS26"
+	},
+	{
+		"index": 163,
+		"pattern": "sa qa SQ24 SS26SS26"
+	},
+	{
+		"index": 164,
+		"pattern": "sa qa SQ26 QS24"
+	},
+	{
 		"index": 175,
 		"pattern": "qa sa SS26 QS36"
 	},
