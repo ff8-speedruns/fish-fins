@@ -1,646 +1,646 @@
 [
 	{
 		"index": 0,
-		"pattern": "SA QA SS54"
+		"pattern": "sa qa SS54"
 	},
 	{
 		"index": 1,
-		"pattern": "SA QS36 QA"
+		"pattern": "sa QS36 qa"
 	},
 	{
 		"index": 2,
-		"pattern": "QA QS54 SA QQ26"
+		"pattern": "qa QS54 sa QQ26"
 	},
 	{
 		"index": 3,
-		"pattern": "S QS36 SA QA"
+		"pattern": "S QS36 sa qa"
 	},
 	{
 		"index": 4,
-		"pattern": "SA SQ17 QQ18 QA"
+		"pattern": "sa SQ17 QQ18 qa"
 	},
 	{
 		"index": 5,
-		"pattern": "B SS34 SA QA"
+		"pattern": "B SS34 sa qa"
 	},
 	{
 		"index": 6,
-		"pattern": "B QS34 SA QA QQ36"
+		"pattern": "B QS34 sa qa QQ36"
 	},
 	{
 		"index": 7,
-		"pattern": "QA SQ18 SA SQ18"
+		"pattern": "qa SQ18 sa SQ18"
 	},
 	{
 		"index": 8,
-		"pattern": "QQ26 SA QA SQ27"
+		"pattern": "QQ26 sa qa SQ27"
 	},
 	{
 		"index": 9,
-		"pattern": "QA QQ18 SA QS18"
+		"pattern": "qa QQ18 sa QS18"
 	},
 	{
 		"index": 10,
-		"pattern": "SA QA QQ27 SS26 QS25"
+		"pattern": "sa qa QQ27 SS26 QS25"
 	},
 	{
 		"index": 11,
-		"pattern": "QA SA SQ27 QS18"
+		"pattern": "qa sa SQ27 QS18"
 	},
 	{
 		"index": 12,
-		"pattern": "QA SA QQ27 SS18"
+		"pattern": "qa sa QQ27 SS18"
 	},
 	{
 		"index": 13,
-		"pattern": "QA SA SS26 QQ26"
+		"pattern": "qa sa SS26 QQ26"
 	},
 	{
 		"index": 14,
-		"pattern": "QQ18 SS18 SA QA"
+		"pattern": "QQ18 SS18 sa qa"
 	},
 	{
 		"index": 15,
-		"pattern": "S QS26 SQ26 SA QA QS27"
+		"pattern": "S QS26 SQ26 sa qa QS27"
 	},
 	{
 		"index": 16,
-		"pattern": "SA QS17 SQ26 QA"
+		"pattern": "sa QS17 SQ26 qa"
 	},
 	{
 		"index": 17,
-		"pattern": "QA SA QS25 SQ18"
+		"pattern": "qa sa QS25 SQ18"
 	},
 	{
 		"index": 18,
-		"pattern": "SA QS26 QA SS25"
+		"pattern": "sa QS26 qa SS25"
 	},
 	{
 		"index": 19,
-		"pattern": "QA SS17 SA SS17"
+		"pattern": "qa SS17 sa SS17"
 	},
 	{
 		"index": 20,
-		"pattern": "B QQ52 SS50 SA QA"
+		"pattern": "B QQ52 SS50 sa qa"
 	},
 	{
 		"index": 21,
-		"pattern": "SQ26 QA QS18 SA"
+		"pattern": "SQ26 qa QS18 sa"
 	},
 	{
 		"index": 22,
-		"pattern": "SA QA SS17 QS26"
+		"pattern": "sa qa SS17 QS26"
 	},
 	{
 		"index": 23,
-		"pattern": "SA QA QS25 SS26"
+		"pattern": "sa qa QS25 SS26"
 	},
 	{
 		"index": 24,
-		"pattern": "SA QA QS17 SS18 QQ36"
+		"pattern": "sa qa QS17 SS18 QQ36"
 	},
 	{
 		"index": 25,
-		"pattern": "QA SA QS25 SS26"
+		"pattern": "qa sa QS25 SS26"
 	},
 	{
 		"index": 26,
-		"pattern": "QA QS18 SA QS18"
+		"pattern": "qa QS18 sa QS18"
 	},
 	{
 		"index": 27,
-		"pattern": "SA QQ27 QA SS18"
+		"pattern": "sa QQ27 qa SS18"
 	},
 	{
 		"index": 28,
-		"pattern": "B SA QA SS52"
+		"pattern": "B sa qa SS52"
 	},
 	{
 		"index": 29,
-		"pattern": "SA QA QS18 SQ36"
+		"pattern": "sa qa QS18 SQ36"
 	},
 	{
 		"index": 30,
-		"pattern": "QA SA QS26 SQ52"
+		"pattern": "qa sa QS26 SQ52"
 	},
 	{
 		"index": 31,
-		"pattern": "SA QA QS17 SQ17"
+		"pattern": "sa qa QS17 SQ17"
 	},
 	{
 		"index": 32,
-		"pattern": "SA SS18 QA QQ52"
+		"pattern": "sa SS18 qa QQ52"
 	},
 	{
 		"index": 33,
-		"pattern": "QA SA QS17 SQ17"
+		"pattern": "qa sa QS17 SQ17"
 	},
 	{
 		"index": 34,
-		"pattern": "QS17 QA SA QQ17"
+		"pattern": "QS17 qa sa QQ17"
 	},
 	{
 		"index": 35,
-		"pattern": "SA QA SQ36"
+		"pattern": "sa qa SQ36"
 	},
 	{
 		"index": 36,
-		"pattern": "SA QA SQ52"
+		"pattern": "sa qa SQ52"
 	},
 	{
 		"index": 37,
-		"pattern": "B QQ72 SA QA"
+		"pattern": "B QQ72 sa qa"
 	},
 	{
 		"index": 38,
-		"pattern": "SA QA SQ25 QS25"
+		"pattern": "sa qa SQ25 QS25"
 	},
 	{
 		"index": 39,
-		"pattern": "QA SA SQ17 QS17"
+		"pattern": "qa sa SQ17 QS17"
 	},
 	{
 		"index": 40,
-		"pattern": "SA QQ25 SS17 QA"
+		"pattern": "sa QQ25 SS17 qa"
 	},
 	{
 		"index": 41,
-		"pattern": "QA SQ25 SA QS17"
+		"pattern": "qa SQ25 sa QS17"
 	},
 	{
 		"index": 42,
-		"pattern": "SA QA QS17 SS25"
+		"pattern": "sa qa QS17 SS25"
 	},
 	{
 		"index": 43,
-		"pattern": "QA SA SS25 QS25"
+		"pattern": "qa sa SS25 QS25"
 	},
 	{
 		"index": 44,
-		"pattern": "SA QA QS25 SS17"
+		"pattern": "sa qa QS25 SS17"
 	},
 	{
 		"index": 45,
-		"pattern": "S QS26 SQ27 SA QA"
+		"pattern": "S QS26 SQ27 sa qa"
 	},
 	{
 		"index": 46,
-		"pattern": "QA SS25 SA SQ26"
+		"pattern": "qa SS25 sa SQ26"
 	},
 	{
 		"index": 47,
-		"pattern": "QS25 SA QA SQ26"
+		"pattern": "QS25 sa qa SQ26"
 	},
 	{
 		"index": 48,
-		"pattern": "QS25 SA QA SS26"
+		"pattern": "QS25 sa qa SS26"
 	},
 	{
 		"index": 49,
-		"pattern": "SS25 SA QA QS26"
+		"pattern": "SS25 sa qa QS26"
 	},
 	{
 		"index": 50,
-		"pattern": "SA QA SQ19 QQ24"
+		"pattern": "sa qa SQ19 QQ24"
 	},
 	{
 		"index": 51,
-		"pattern": "QQ27 QA SQ24 SA"
+		"pattern": "QQ27 qa SQ24 sa"
 	},
 	{
 		"index": 52,
-		"pattern": "SA QA QS18 SS27"
+		"pattern": "sa qa QS18 SS27"
 	},
 	{
 		"index": 53,
-		"pattern": "SA QA SS18 QS27"
+		"pattern": "sa qa SS18 QS27"
 	},
 	{
 		"index": 54,
-		"pattern": "QA SS26 SA QS27"
+		"pattern": "qa SS26 sa QS27"
 	},
 	{
 		"index": 55,
-		"pattern": "SA QA QQ17 SS18"
+		"pattern": "sa qa QQ17 SS18"
 	},
 	{
 		"index": 56,
-		"pattern": "QQ24 QA SA SS25"
+		"pattern": "QQ24 qa sa SS25"
 	},
 	{
 		"index": 57,
-		"pattern": "SQ24 SA QA QS17"
+		"pattern": "SQ24 sa qa QS17"
 	},
 	{
 		"index": 58,
-		"pattern": "SA QA QS27 SS18"
+		"pattern": "sa qa QS27 SS18"
 	},
 	{
 		"index": 59,
-		"pattern": "QA QS27 SS26 SA"
+		"pattern": "qa QS27 SS26 sa"
 	},
 	{
 		"index": 60,
-		"pattern": "S QS18 SS24 SA QA"
+		"pattern": "S QS18 SS24 sa qa"
 	},
 	{
 		"index": 61,
-		"pattern": "SS26 SA QS24 QA"
+		"pattern": "SS26 sa QS24 qa"
 	},
 	{
 		"index": 62,
-		"pattern": "SS26 QA QS24 SA"
+		"pattern": "SS26 qa QS24 sa"
 	},
 	{
 		"index": 63,
-		"pattern": "QS25 SA SQ18 QA"
+		"pattern": "QS25 sa SQ18 qa"
 	},
 	{
 		"index": 64,
-		"pattern": "QS26 QA SA SQ18"
+		"pattern": "QS26 qa sa SQ18"
 	},
 	{
 		"index": 65,
-		"pattern": "SA QA QS17 SS18 QS18"
+		"pattern": "sa qa QS17 SS18 QS18"
 	},
 	{
 		"index": 66,
-		"pattern": "QA SA QS17 SS18"
+		"pattern": "qa sa QS17 SS18"
 	},
 	{
 		"index": 67,
-		"pattern": "Q ARB SA SS24 QS18"
+		"pattern": "Q ARB sa SS24 QS18"
 	},
 	{
 		"index": 68,
-		"pattern": "QA SA SQ18 QS17"
+		"pattern": "qa sa SQ18 QS17"
 	},
 	{
 		"index": 69,
-		"pattern": "QQ26 QA SA SQ25"
+		"pattern": "QQ26 qa sa SQ25"
 	},
 	{
 		"index": 70,
-		"pattern": "B QQ36 SS34 SA QA"
+		"pattern": "B QQ36 SS34 sa qa"
 	},
 	{
 		"index": 71,
-		"pattern": "SQ18 SA QA QQ25"
+		"pattern": "SQ18 sa qa QQ25"
 	},
 	{
 		"index": 72,
-		"pattern": "B SA QA QS36 SS18"
+		"pattern": "B sa qa QS36 SS18"
 	},
 	{
 		"index": 73,
-		"pattern": "QA SA QS18 SS18"
+		"pattern": "qa sa QS18 SS18"
 	},
 	{
 		"index": 74,
-		"pattern": "B QS36 SS18 SA QA"
+		"pattern": "B QS36 SS18 sa qa"
 	},
 	{
 		"index": 75,
-		"pattern": "S QS18 SS26 SA QA"
+		"pattern": "S QS18 SS26 sa qa"
 	},
 	{
 		"index": 76,
-		"pattern": "QA SA SS25 QS16"
+		"pattern": "qa sa SS25 QS16"
 	},
 	{
 		"index": 77,
-		"pattern": "QS25 SA SQ17 QA"
+		"pattern": "QS25 sa SQ17 qa"
 	},
 	{
 		"index": 78,
-		"pattern": "S SS26 SA QA"
+		"pattern": "S SS26 sa qa"
 	},
 	{
 		"index": 79,
-		"pattern": "SA SS26 QA SQ27"
+		"pattern": "sa SS26 qa SQ27"
 	},
 	{
 		"index": 80,
-		"pattern": "QA SA QS26 QQ27"
+		"pattern": "qa sa QS26 QQ27"
 	},
 	{
 		"index": 81,
-		"pattern": "SA QS24 QA SQ19"
+		"pattern": "sa QS24 qa SQ19"
 	},
 	{
 		"index": 82,
-		"pattern": "QA SA SQ17 QS24"
+		"pattern": "qa sa SQ17 QS24"
 	},
 	{
 		"index": 83,
-		"pattern": "SA QA QQ17 SS16"
+		"pattern": "sa qa QQ17 SS16"
 	},
 	{
 		"index": 84,
-		"pattern": "QA SA QQ19 SQ27"
+		"pattern": "qa sa QQ19 SQ27"
 	},
 	{
 		"index": 85,
-		"pattern": "S SQ19 SA QA"
+		"pattern": "S SQ19 sa qa"
 	},
 	{
 		"index": 86,
-		"pattern": "SA SQ27 QA QQ27"
+		"pattern": "sa SQ27 qa QQ27"
 	},
 	{
 		"index": 87,
-		"pattern": "QA SA QS16 SS26"
+		"pattern": "qa sa QS16 SS26"
 	},
 	{
 		"index": 88,
-		"pattern": "SA QA SS25 QS26"
+		"pattern": "sa qa SS25 QS26"
 	},
 	{
 		"index": 89,
-		"pattern": "QS24 QA SA SS18"
+		"pattern": "QS24 qa sa SS18"
 	},
 	{
 		"index": 90,
-		"pattern": "SA QA QQ27 SS26 SS26"
+		"pattern": "sa qa QQ27 SS26 SS26"
 	},
 	{
 		"index": 91,
-		"pattern": "SQ19 QA SA QQ18"
+		"pattern": "SQ19 qa sa QQ18"
 	},
 	{
 		"index": 92,
-		"pattern": "QA SA QS26 SQ27 QQ27"
+		"pattern": "qa sa QS26 SQ27 QQ27"
 	},
 	{
 		"index": 93,
-		"pattern": "QA SA SS26 QQ17"
+		"pattern": "qa sa SS26 QQ17"
 	},
 	{
 		"index": 94,
-		"pattern": "B QS52 SQ50 SA QA"
+		"pattern": "B QS52 SQ50 sa qa"
 	},
 	{
 		"index": 95,
-		"pattern": "SA SS18 QA QQ25"
+		"pattern": "sa SS18 qa QQ25"
 	},
 	{
 		"index": 96,
-		"pattern": "QA SA QS26 QS26"
+		"pattern": "qa sa QS26 QS26"
 	},
 	{
 		"index": 97,
-		"pattern": "QS18 QA SA QQ18"
+		"pattern": "QS18 qa sa QQ18"
 	},
 	{
 		"index": 98,
-		"pattern": "SA QA QQ27 SQ27"
+		"pattern": "sa qa QQ27 SQ27"
 	},
 	{
 		"index": 99,
-		"pattern": "SA QA SQ25 QQ17"
+		"pattern": "sa qa SQ25 QQ17"
 	},
 	{
 		"index": 100,
-		"pattern": "S QQ25 SQ17 SA QA"
+		"pattern": "S QQ25 SQ17 sa qa"
 	},
 	{
 		"index": 101,
-		"pattern": "SQ17 SA QA SQ17"
+		"pattern": "SQ17 sa qa SQ17"
 	},
 	{
 		"index": 102,
-		"pattern": "B QS36 SQ34 SA QA"
+		"pattern": "B QS36 SQ34 sa qa"
 	},
 	{
 		"index": 103,
-		"pattern": "QS18 SQ17 SA QA"
+		"pattern": "QS18 SQ17 sa qa"
 	},
 	{
 		"index": 104,
-		"pattern": "SA QA SQ17 QQ17"
+		"pattern": "sa qa SQ17 QQ17"
 	},
 	{
 		"index": 105,
-		"pattern": "QA SA QQ17 SQ24 SQ26"
+		"pattern": "qa sa QQ17 SQ24 SQ26"
 	},
 	{
 		"index": 106,
-		"pattern": "QA SA QQ17 QQ18"
+		"pattern": "qa sa QQ17 QQ18"
 	},
 	{
 		"index": 107,
-		"pattern": "SA QA SQ24 SQ26"
+		"pattern": "sa qa SQ24 SQ26"
 	},
 	{
 		"index": 108,
-		"pattern": "QA SA SQ24 SQ26"
+		"pattern": "qa sa SQ24 SQ26"
 	},
 	{
 		"index": 109,
-		"pattern": "SQ17 SA QA QQ26"
+		"pattern": "SQ17 sa qa QQ26"
 	},
 	{
 		"index": 110,
-		"pattern": "SA SQ17 QA SQ18"
+		"pattern": "sa SQ17 qa SQ18"
 	},
 	{
 		"index": 111,
-		"pattern": "B SA QA QQ36 SQ17"
+		"pattern": "B sa qa QQ36 SQ17"
 	},
 	{
 		"index": 112,
-		"pattern": "QA QQ18 SA SQ25"
+		"pattern": "qa QQ18 sa SQ25"
 	},
 	{
 		"index": 113,
-		"pattern": "SA QA QQ18 SQ25 SS24"
+		"pattern": "sa qa QQ18 SQ25 SS24"
 	},
 	{
 		"index": 114,
-		"pattern": "QQ26 SA QA QS27"
+		"pattern": "QQ26 sa qa QS27"
 	},
 	{
 		"index": 115,
-		"pattern": "QA SA SQ26 QS27"
+		"pattern": "qa sa SQ26 QS27"
 	},
 	{
 		"index": 116,
-		"pattern": "SA SQ26 QA QS18"
+		"pattern": "sa SQ26 qa QS18"
 	},
 	{
 		"index": 117,
-		"pattern": "QA SA QQ25 QS24"
+		"pattern": "qa sa QQ25 QS24"
 	},
 	{
 		"index": 118,
-		"pattern": "SA QA SQ25 SS24"
+		"pattern": "sa qa SQ25 SS24"
 	},
 	{
 		"index": 119,
-		"pattern": "QA SQ25 SA SS24"
+		"pattern": "qa SQ25 sa SS24"
 	},
 	{
 		"index": 120,
-		"pattern": "SA QA SS27 QS24"
+		"pattern": "sa qa SS27 QS24"
 	},
 	{
 		"index": 121,
-		"pattern": "QA SS18 QS24 SA"
+		"pattern": "qa SS18 QS24 sa"
 	},
 	{
 		"index": 122,
-		"pattern": "SS27 SA QA QS24"
+		"pattern": "SS27 sa qa QS24"
 	},
 	{
 		"index": 123,
-		"pattern": "QS17 SA QA SS24"
+		"pattern": "QS17 sa qa SS24"
 	},
 	{
 		"index": 124,
-		"pattern": "QA SA SS24 QQ26"
+		"pattern": "qa sa SS24 QQ26"
 	},
 	{
 		"index": 125,
-		"pattern": "SA SS24 QA QQ26"
+		"pattern": "sa SS24 qa QQ26"
 	},
 	{
 		"index": 126,
-		"pattern": "QA SA SS17 QQ26"
+		"pattern": "qa sa SS17 QQ26"
 	},
 	{
 		"index": 127,
-		"pattern": "QA SS24 QQ26 SA"
+		"pattern": "qa SS24 QQ26 sa"
 	},
 	{
 		"index": 128,
-		"pattern": "QS17 SA QA SQ18"
+		"pattern": "QS17 sa qa SQ18"
 	},
 	{
 		"index": 129,
-		"pattern": "SA QS24 SQ26 QA"
+		"pattern": "sa QS24 SQ26 qa"
 	},
 	{
 		"index": 130,
-		"pattern": "SA QA QS19 QQ16"
+		"pattern": "sa qa QS19 QQ16"
 	},
 	{
 		"index": 131,
-		"pattern": "SA QA QS27 QQ24 SS19"
+		"pattern": "sa qa QS27 QQ24 SS19"
 	},
 	{
 		"index": 132,
-		"pattern": "QA SA SS18 QQ16"
+		"pattern": "qa sa SS18 QQ16"
 	},
 	{
 		"index": 133,
-		"pattern": "SA QA QQ18 SQ17 QS19"
+		"pattern": "sa qa QQ18 SQ17 QS19"
 	},
 	{
 		"index": 134,
-		"pattern": "QA QQ18 SA SQ17"
+		"pattern": "qa QQ18 sa SQ17"
 	},
 	{
 		"index": 135,
-		"pattern": "SA QA SQ18 QQ17"
+		"pattern": "sa qa SQ18 QQ17"
 	},
 	{
 		"index": 136,
-		"pattern": "SA QA QQ16 SS19"
+		"pattern": "sa qa QQ16 SS19"
 	},
 	{
 		"index": 137,
-		"pattern": "QA SA QQ16 SS27"
+		"pattern": "qa sa QQ16 SS27"
 	},
 	{
 		"index": 138,
-		"pattern": "SA QA SQ16"
+		"pattern": "sa qa SQ16"
 	},
 	{
 		"index": 139,
-		"pattern": "QA SA SQ24 QS27"
+		"pattern": "qa sa SQ24 QS27"
 	},
 	{
 		"index": 140,
-		"pattern": "SA QA QQ17 SS27"
+		"pattern": "sa qa QQ17 SS27"
 	},
 	{
 		"index": 141,
-		"pattern": "S SQ24 SA QA"
+		"pattern": "S SQ24 sa qa"
 	},
 	{
 		"index": 142,
-		"pattern": "SA QA SS19 QQ27"
+		"pattern": "sa qa SS19 QQ27"
 	},
 	{
 		"index": 143,
-		"pattern": "QA SA SS27 QQ27"
+		"pattern": "qa sa SS27 QQ27"
 	},
 	{
 		"index": 144,
-		"pattern": "SA QA SS19 QQ18"
+		"pattern": "sa qa SS19 QQ18"
 	},
 	{
 		"index": 145,
-		"pattern": "SS27 SA QA QQ27"
+		"pattern": "SS27 sa qa QQ27"
 	},
 	{
 		"index": 146,
-		"pattern": "SA QA QS19 SQ18"
+		"pattern": "sa qa QS19 SQ18"
 	},
 	{
 		"index": 147,
-		"pattern": "QA QS27 SA SQ18"
+		"pattern": "qa QS27 sa SQ18"
 	},
 	{
 		"index": 148,
-		"pattern": "S QS18 SQ18 SA QA"
+		"pattern": "S QS18 SQ18 sa qa"
 	},
 	{
 		"index": 149,
-		"pattern": "SA SQ17 QA QQ18"
+		"pattern": "sa SQ17 qa QQ18"
 	},
 	{
 		"index": 175,
-		"pattern": "QA SA SS26 QS36"
+		"pattern": "qa sa SS26 QS36"
 	},
 	{
 		"index": 177,
-		"pattern": "QA SA QS26 SQ27 QQ27"
+		"pattern": "qa sa QS26 SQ27 QQ27"
 	},
 	{
 		"index": 178,
-		"pattern": "SA QA SS26 QQ18 SQ27"
+		"pattern": "sa qa SS26 QQ18 SQ27"
 	},
 	{
 		"index": 179,
-		"pattern": "QA QS26 SQ27 SA"
+		"pattern": "qa QS26 SQ27 sa"
 	},
 	{
 		"index": 192,
-		"pattern": "S QQ18 SA QA SQ18"
+		"pattern": "S QQ18 sa qa SQ18"
 	},
 	{
 		"index": 199,
-		"pattern": "SA QA SQ17 SS18"
+		"pattern": "sa qa SQ17 SS18"
 	},
 	{
 		"index": 201,
-		"pattern": "SA QA QQ18 SQ17 QQ17"
+		"pattern": "sa qa QQ18 SQ17 QQ17"
 	},
 	{
 		"index": 204,
-		"pattern": "SA QA SQ26 QQ25"
+		"pattern": "sa qa SQ26 QQ25"
 	},
 	{
 		"index": 213,
-		"pattern": "SA QA QQ18 SQ17 QS36"
+		"pattern": "sa qa QQ18 SQ17 QS36"
 	},
 	{
 		"index": 238,
-		"pattern": "QA SA QQ18 SQ17"
+		"pattern": "qa sa QQ18 SQ17"
 	},
 	{
 		"index": 255,
-		"pattern": "QQ24 QA SQ17 SA"
+		"pattern": "QQ24 qa SQ17 sa"
 	}
 ]
