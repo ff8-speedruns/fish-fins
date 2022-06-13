@@ -151,7 +151,7 @@ function UpdateIndex(pat) {
                         <tr>
                             <th scope="row" id="index">${row.index}</th>
                             <td id="pat">${row.pattern}</td>
-                            <td id="atb">${row.atbRefresh ? row.atbRefresh : ""}</td>
+                            <td id="atb">${row.atbRefresh}</td>
                             <td id="drop">${row.drop ? row.drop : ""}</td>
                             <td>${row.phase1Comment ? `Phase 1: ${row.phase1Comment}` : ""}<br />
                                 ${row.phase2Comment ? `Phase 2: ${row.phase2Comment}` : ""}<br />
