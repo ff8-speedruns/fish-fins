@@ -43,10 +43,10 @@ window.onload = async function () {
 }
 
 async function loadData(data = "fins") {
+    CheckPatternMode();
     let fins = await fetch(`./data/${data}.json`);
     vals = await fins.json();
     CalculatePattern();
-    CheckPatternMode();
 }
 
 // Search for pattens automatically.
