@@ -42,10 +42,11 @@ window.onload = async function () {
     loadData();
 }
 
-async function loadData (data = "fins") {
-        let fins = await fetch(`./data/${data}.json`);
-        vals = await fins.json();
-        CalculatePattern();
+async function loadData(data = "fins") {
+    let fins = await fetch(`./data/${data}.json`);
+    vals = await fins.json();
+    CalculatePattern();
+    CheckPatternMode();
 }
 
 // Search for pattens automatically.
@@ -53,20 +54,22 @@ document.body.addEventListener('change', function (e) {
     CalculatePattern();
 });
 document.body.addEventListener('keyup', function (e) {
-    if(dmg1.value.includes('.')) {
+    if (dmg1.value.includes('.')) {
         dmg1.value = '';
     }
-    if(dmg2.value.includes('.')) {
+    if (dmg2.value.includes('.')) {
         dmg2.value = '';
     }
-    if(dmg3.value.includes('.')) {
+    if (dmg3.value.includes('.')) {
         dmg3.value = '';
     }
     CalculatePattern();
 });
 
 // Handling switching between input/wizard modes
-inputSwitch.addEventListener('change', function (e) {
+inputSwitch.addEventListener('change', CheckPatternMode);
+
+function CheckPatternMode() {
     if (inputSwitch.checked) {
         wizardDiv.style.display = "none";
         inputDiv.style.display = "block";
@@ -75,22 +78,7 @@ inputSwitch.addEventListener('change', function (e) {
         wizardDiv.style.display = "block";
         inputDiv.style.display = "none";
     }
-});
-
-// Handling KAIVEL, ALLO?!
-kaivelMode.addEventListener('change', async function (e) {
-    if (kaivelMode.checked) {
-        loadData("kaivel");
-        subtitle.innerHTML = "ALLO?!";
-        inputSwitch.checked = true;
-        inputSwitch.dispatchEvent(new Event('change'));
-        inputSwitch.disabled = true;
-    } else {
-        loadData();
-        subtitle.innerHTML = "Because you're too cool.";
-        inputSwitch.disabled = false;
-    }
-});
+}
 
 // Radio Buttons UX: Focus damage box after a selection is made
 document.querySelectorAll("input[name='attack1']").forEach((input) => {
