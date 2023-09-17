@@ -12,7 +12,9 @@
         "pattern": "qq26 sq27 qs26",
         "atbRefresh": 5,
         "drop": 4,
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 2,
@@ -27,7 +29,9 @@
         "pattern": "qq27 ss26 qs25",
         "atbRefresh": 2,
         "drop": 4,
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 4,
@@ -63,7 +67,9 @@
         "pattern": "s qs26 sq26 qs27",
         "atbRefresh": 2,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 9,
@@ -85,7 +91,9 @@
         "pattern": "qs26 ss25 qs26",
         "atbRefresh": 66,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 12,
@@ -121,7 +129,9 @@
         "pattern": "qs25 ss26 qq52",
         "atbRefresh": "16 or 63",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 17,
@@ -129,7 +139,9 @@
         "pattern": "qs17 ss18 qq36",
         "atbRefresh": "16 or 63",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 18,
@@ -151,7 +163,9 @@
         "pattern": "qq27 ss18 qq52",
         "atbRefresh": "16 or 63",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 21,
@@ -166,7 +180,9 @@
         "pattern": "qs18 sq36 qs17",
         "atbRefresh": "12 or 58",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 23,
@@ -181,8 +197,10 @@
         "pattern": "qs17 sq17 qs17",
         "atbRefresh": 46,
         "drop": 4,
-        "phase1Comment": "Squall first ATB",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall first ATB",
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 25,
@@ -190,7 +208,9 @@
         "pattern": "ss18 qq52 ss17",
         "atbRefresh": "12 or 59",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 26,
@@ -198,7 +218,9 @@
         "pattern": "qs17 sq17 qs17",
         "atbRefresh": "12 or 59",
         "drop": "3 or 4",
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 27,
@@ -248,16 +270,17 @@
         "pattern": "qq25 ss17 sq18",
         "atbRefresh": "0 or 47",
         "drop": "3 or 4",
-        "phase1Comment": "Queue 2nd thunder ASAP",
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Queue 2nd thunder ASAP",
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 34,
         "tested": "o",
         "pattern": "sq25 qs17 qq18",
         "atbRefresh": "0 or 47",
-        "drop": "3 or 4",
-        "phase1Comment": "      "
+        "drop": "3 or 4"
     },
     {
         "index": 35,
@@ -265,7 +288,9 @@
         "pattern": "qs17 ss25 qs18",
         "atbRefresh": "3 or 46",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 36,
@@ -280,7 +305,9 @@
         "pattern": "qs25 ss17 qs26",
         "atbRefresh": "3 or 46",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 38,
@@ -288,8 +315,10 @@
         "pattern": "s qs26 sq27 qq24",
         "atbRefresh": "3 or 46",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd",
-        "phase3Comment": "If Fish attack between Thunders: 0 or 41"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd",
+            "Phase 3": "If Fish attack between Thunders: 0 or 41"
+        }
     },
     {
         "index": 39,
@@ -304,7 +333,9 @@
         "pattern": "qs25 sq26 ss27",
         "atbRefresh": 36,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 41,
@@ -312,7 +343,9 @@
         "pattern": "qs25 ss26 qs27",
         "atbRefresh": "0 or 41",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 42,
@@ -320,7 +353,9 @@
         "pattern": "ss25 qs26 ss27",
         "atbRefresh": 39,
         "drop": 4,
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 43,
@@ -328,7 +363,9 @@
         "pattern": "sq19 qq24 ss18",
         "atbRefresh": "0 or 41",
         "drop": "3 or 4",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 44,
@@ -364,7 +401,9 @@
         "pattern": "qq17 ss18 qs17",
         "atbRefresh": 29,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 49,
@@ -379,7 +418,9 @@
         "pattern": "sq24 qs17 ss24",
         "atbRefresh": 34,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 51,
@@ -387,7 +428,9 @@
         "pattern": "qs27 ss18 qq26",
         "atbRefresh": 24,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 52,
@@ -409,8 +452,10 @@
         "pattern": "ss26 qs24 ss27",
         "atbRefresh": 25,
         "drop": 4,
-        "phase1Comment": "Squall gets first ATB",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall gets first ATB",
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 55,
@@ -418,7 +463,9 @@
         "pattern": "ss26 qs24 ss27",
         "atbRefresh": 22,
         "drop": 4,
-        "phase1Comment": "Quistis gets first ATB"
+        "notes": {
+            "Phase 1": "Quistis gets first ATB"
+        }
     },
     {
         "index": 56,
@@ -440,8 +487,10 @@
         "pattern": "qs17 ss18 qs18",
         "atbRefresh": 19,
         "drop": 4,
-        "phase1Comment": "Squall gets first ATB",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall gets first ATB",
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 59,
@@ -449,7 +498,9 @@
         "pattern": "qs17 ss18 qs18",
         "atbRefresh": 20,
         "drop": 4,
-        "phase1Comment": "Quistis gets first ATB"
+        "notes": {
+            "Phase 1": "Quistis gets first ATB"
+        }
     },
     {
         "index": 60,
@@ -478,7 +529,9 @@
         "pattern": "b qq36 ss34 qq17",
         "atbRefresh": 16,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 64,
@@ -507,7 +560,9 @@
         "pattern": "b qs36 ss18 qq38",
         "atbRefresh": 16,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 68,
@@ -515,8 +570,10 @@
         "pattern": "s qs18 ss26 qq19",
         "atbRefresh": 16,
         "drop": 4,
-        "phase1Comment": "Queue Thunder ASAP.",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Queue Thunder ASAP.",
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 69,
@@ -531,7 +588,9 @@
         "pattern": "qs25 sq17 qs24",
         "atbRefresh": 11,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 71,
@@ -539,7 +598,9 @@
         "pattern": "s ss26 qq27 sq27",
         "atbRefresh": 11,
         "drop": 4,
-        "phase1Comment": "Queue Thunder ASAP"
+        "notes": {
+            "Phase 1": "Queue Thunder ASAP"
+        }
     },
     {
         "index": 72,
@@ -547,7 +608,9 @@
         "pattern": "ss26 sq27 qq19",
         "atbRefresh": 7,
         "drop": 4,
-        "phase1Comment": "Queue Thunder ASAP"
+        "notes": {
+            "Phase 1": "Queue Thunder ASAP"
+        }
     },
     {
         "index": 73,
@@ -626,7 +689,9 @@
         "pattern": "qq27 ss26 ss26",
         "atbRefresh": 2,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 84,
@@ -641,7 +706,9 @@
         "pattern": "qs26 sq27 qq27",
         "atbRefresh": "25 or 77",
         "drop": "4 or 6",
-        "phase1Comment": "To be tested (with 170/172)"
+        "notes": {
+            "Phase 1": "To be tested (with 170/172)"
+        }
     },
     {
         "index": 86,
@@ -663,7 +730,9 @@
         "pattern": "ss18 qq25 sq17",
         "atbRefresh": "25 or 77",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 89,
@@ -699,7 +768,9 @@
         "pattern": "s qq25 sq17 qq26",
         "atbRefresh": "27 or 79",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 94,
@@ -707,7 +778,9 @@
         "pattern": "sq17 sq17 sq18",
         "atbRefresh": "28 or 80",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 95,
@@ -715,7 +788,9 @@
         "pattern": "b qs36 sq34 qq18",
         "atbRefresh": "27 or 79",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 96,
@@ -723,7 +798,9 @@
         "pattern": "qs18 sq17 qq18",
         "atbRefresh": "27 or 79",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 97,
@@ -752,8 +829,10 @@
         "pattern": "sq24 sq26 qs27",
         "atbRefresh": "6 or 58",
         "drop": "4 or 6",
-        "phase1Comment": "Squall first ATB",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall first ATB",
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 101,
@@ -761,7 +840,9 @@
         "pattern": "sq24 sq26 qs27",
         "atbRefresh": "14 or 66",
         "drop": "4 or 6",
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 102,
@@ -769,7 +850,9 @@
         "pattern": "sq17 qq26 ss18",
         "atbRefresh": "0 or 52",
         "drop": "4 or 6",
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 103,
@@ -777,7 +860,9 @@
         "pattern": "sq17 sq18 qs27",
         "atbRefresh": "0 or 52",
         "drop": "4 or 6",
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 104,
@@ -792,7 +877,9 @@
         "pattern": "qq18 sq25 ss24",
         "atbRefresh": "0 or 52",
         "drop": "4 or 6",
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 106,
@@ -800,7 +887,9 @@
         "pattern": "qq18 sq25 ss24",
         "atbRefresh": "5 or 51",
         "drop": "4 or 6",
-        "phase1Comment": "Squall first ATB"
+        "notes": {
+            "Phase 1": "Squall first ATB"
+        }
     },
     {
         "index": 107,
@@ -850,7 +939,9 @@
         "pattern": "ss27 qs24 sq26",
         "atbRefresh": "4 or 50",
         "drop": "4 or 6",
-        "phase1Comment": "Squall ATB 75%"
+        "notes": {
+            "Phase 1": "Squall ATB 75%"
+        }
     },
     {
         "index": 114,
@@ -865,7 +956,9 @@
         "pattern": "ss27 qs24 sq26",
         "atbRefresh": "4 or 50",
         "drop": "4 or 6",
-        "phase1Comment": "Squall ATB 25% (At fish attack ATB almost full)"
+        "notes": {
+            "Phase 1": "Squall ATB 25% (At fish attack ATB almost full)"
+        }
     },
     {
         "index": 116,
@@ -873,7 +966,9 @@
         "pattern": "qs17 ss24 qq18",
         "atbRefresh": "4 or 50",
         "drop": "4 or 6",
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 117,
@@ -881,7 +976,9 @@
         "pattern": "ss24 qq26 sq24",
         "atbRefresh": "3 or 49",
         "drop": "4 or 6",
-        "phase1Comment": "Quistis first ATB, both ATB full on 2nd Attack"
+        "notes": {
+            "Phase 1": "Quistis first ATB, both ATB full on 2nd Attack"
+        }
     },
     {
         "index": 118,
@@ -889,7 +986,9 @@
         "pattern": "ss24 qq26 sq24",
         "atbRefresh": "3 or 49",
         "drop": "4 or 6",
-        "phase1Comment": "Squall first ATB"
+        "notes": {
+            "Phase 1": "Squall first ATB"
+        }
     },
     {
         "index": 119,
@@ -897,7 +996,9 @@
         "pattern": "ss17 qq26 sq17",
         "atbRefresh": "3 or 49",
         "drop": "4 or 6",
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 120,
@@ -905,7 +1006,9 @@
         "pattern": "ss24 qq26 sq24",
         "atbRefresh": "3 or 49",
         "drop": "4 or 6",
-        "phase1Comment": "Quistis first ATB, Squall ATB not full for first 2 attacks"
+        "notes": {
+            "Phase 1": "Quistis first ATB, Squall ATB not full for first 2 attacks"
+        }
     },
     {
         "index": 121,
@@ -927,7 +1030,9 @@
         "pattern": "qs19 qq16 ss19",
         "atbRefresh": "2 or 44",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 124,
@@ -935,7 +1040,9 @@
         "pattern": "qs27 qq24 ss19",
         "atbRefresh": "1 or 43",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 125,
@@ -950,8 +1057,10 @@
         "pattern": "qq18 sq17 qs19",
         "atbRefresh": "1 or 43",
         "drop": "4 or 6",
-        "phase1Comment": "Squall first ATB",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall first ATB",
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 127,
@@ -959,7 +1068,9 @@
         "pattern": "qq18 sq17 qs19",
         "atbRefresh": "2 or 44",
         "drop": "4 or 6",
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 128,
@@ -967,7 +1078,9 @@
         "pattern": "sq18 qq17 ss19",
         "atbRefresh": "1 or 43",
         "drop": "4 or 6",
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 129,
@@ -989,7 +1102,9 @@
         "pattern": "sq16 qs19 sq18",
         "atbRefresh": 32,
         "drop": 6,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 132,
@@ -1004,7 +1119,9 @@
         "pattern": "qq17 ss27 qq18",
         "atbRefresh": 26,
         "drop": 6,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 134,
@@ -1019,7 +1136,9 @@
         "pattern": "ss19 qq27 sq17",
         "atbRefresh": 26,
         "drop": 6,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 136,
@@ -1027,7 +1146,9 @@
         "pattern": "ss27 qq27 sq24",
         "atbRefresh": 26,
         "drop": 6,
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 137,
@@ -1035,7 +1156,9 @@
         "pattern": "ss19 qq18 sq17",
         "atbRefresh": 26,
         "drop": 6,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 138,
@@ -1043,8 +1166,10 @@
         "pattern": "ss27 qq27 sq24",
         "atbRefresh": 26,
         "drop": 6,
-        "phase1Comment": "Squall first ATB",
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall first ATB",
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 139,
@@ -1052,7 +1177,9 @@
         "pattern": "qs19 sq18 qq17",
         "atbRefresh": 19,
         "drop": 6,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 140,
@@ -1067,7 +1194,9 @@
         "pattern": "s qs18 sq18 qq17",
         "atbRefresh": 19,
         "drop": 6,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 142,
@@ -1075,7 +1204,9 @@
         "pattern": "sq17 qq18 sq17",
         "atbRefresh": 26,
         "drop": 6,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 143,
@@ -1111,7 +1242,9 @@
         "pattern": "sq18 qq17 qs18",
         "atbRefresh": 18,
         "drop": 6,
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 148,
@@ -1126,7 +1259,9 @@
         "pattern": "sq18 qq17 qs18",
         "atbRefresh": 18,
         "drop": 6,
-        "phase1Comment": "Squall first ATB"
+        "notes": {
+            "Phase 1": "Squall first ATB"
+        }
     },
     {
         "index": 150,
@@ -1155,8 +1290,10 @@
         "pattern": "sq24 ss26 ss26",
         "atbRefresh": 14,
         "drop": 6,
-        "phase1Comment": "Squalls ATB 60%",
-        "phase2Comment": "Swap-cast on 2nd"
+        "notes": {
+            "Phase 1": "Squalls ATB 60%",
+            "Phase 2": "Swap-cast on 2nd"
+        }
     },
     {
         "index": 154,
@@ -1178,8 +1315,10 @@
         "pattern": "sq24 ss26 ss26",
         "atbRefresh": 14,
         "drop": 6,
-        "phase1Comment": "Both ATBs started almost empty",
-        "phase2Comment": "Swap-cast on 2nd"
+        "notes": {
+            "Phase 1": "Both ATBs started almost empty",
+            "Phase 2": "Swap-cast on 2nd"
+        }
     },
     {
         "index": 157,
@@ -1250,7 +1389,9 @@
         "pattern": "b qq36 ss36 qq18",
         "atbRefresh": 0,
         "drop": 6,
-        "phase1Comment": "Queue thunder ASAP"
+        "notes": {
+            "Phase 1": "Queue thunder ASAP"
+        }
     },
     {
         "index": 167,
@@ -1279,7 +1420,9 @@
         "pattern": "qs26 sq27 qq27",
         "atbRefresh": 0,
         "drop": 6,
-        "phase1Comment": "Squall ATB starts at 0, Quistis ATB full"
+        "notes": {
+            "Phase 1": "Squall ATB starts at 0, Quistis ATB full"
+        }
     },
     {
         "index": 171,
@@ -1294,7 +1437,9 @@
         "pattern": "qs26 sq27 qq27",
         "atbRefresh": 1,
         "drop": 6,
-        "phase1Comment": "Quistis has 1st ATB - To be tested (with 85/170)"
+        "notes": {
+            "Phase 1": "Quistis has 1st ATB - To be tested (with 85/170)"
+        }
     },
     {
         "index": 173,
@@ -1323,8 +1468,10 @@
         "pattern": "b qq36 sq27 qq17",
         "atbRefresh": 14,
         "drop": 4,
-        "phase1Comment": "Queue thunder ASAP",
-        "phase2Comment": "Swap-cast on 2nd"
+        "notes": {
+            "Phase 1": "Queue thunder ASAP",
+            "Phase 2": "Swap-cast on 2nd"
+        }
     },
     {
         "index": 177,
@@ -1339,7 +1486,9 @@
         "pattern": "qq27 sq18 sq17",
         "atbRefresh": 14,
         "drop": 4,
-        "phase2Comment": "Swap-cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-cast on 2nd"
+        }
     },
     {
         "index": 179,
@@ -1347,8 +1496,10 @@
         "pattern": "s qq27 sq27 qq25",
         "atbRefresh": 14,
         "drop": 4,
-        "phase1Comment": "Queue Thunder ASAP",
-        "phase2Comment": "Swap-cast on 2nd"
+        "notes": {
+            "Phase 1": "Queue Thunder ASAP",
+            "Phase 2": "Swap-cast on 2nd"
+        }
     },
     {
         "index": 180,
@@ -1377,7 +1528,9 @@
         "pattern": "qq18 qq17 qs18",
         "atbRefresh": 7,
         "drop": 4,
-        "phase1Comment": "Quistis first ATB - Queue thunder ASAP"
+        "notes": {
+            "Phase 1": "Quistis first ATB - Queue thunder ASAP"
+        }
     },
     {
         "index": 184,
@@ -1385,7 +1538,9 @@
         "pattern": "qq18 qq17 qs18",
         "atbRefresh": 2,
         "drop": 4,
-        "phase1Comment": "Squall first ATB"
+        "notes": {
+            "Phase 1": "Squall first ATB"
+        }
     },
     {
         "index": 185,
@@ -1442,7 +1597,9 @@
         "pattern": "sq17 ss18 qs27",
         "atbRefresh": 2,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 193,
@@ -1457,8 +1614,10 @@
         "pattern": "qq18 sq17 qq17",
         "atbRefresh": 1,
         "drop": 4,
-        "phase1Comment": "Squall first ATB",
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall first ATB",
+            "Phase 2": "CAREFUL: Swap-Cast on 2nd"
+        }
     },
     {
         "index": 195,
@@ -1501,7 +1660,9 @@
         "pattern": "ss17 qq26 sq17",
         "atbRefresh": 0,
         "drop": 4,
-        "phase1Comment": "Squall first ATB"
+        "notes": {
+            "Phase 1": "Squall first ATB"
+        }
     },
     {
         "index": 201,
@@ -1523,8 +1684,10 @@
         "pattern": "qs27 qq24 ss36",
         "atbRefresh": 48,
         "drop": 4,
-        "phase1Comment": "Squall first ATB ",
-        "phase2Comment": "Swap-cast on 2nd"
+        "notes": {
+            "Phase 1": "Squall first ATB ",
+            "Phase 2": "Swap-cast on 2nd"
+        }
     },
     {
         "index": 204,
@@ -1532,7 +1695,9 @@
         "pattern": "qs27 qq24 ss36",
         "atbRefresh": 48,
         "drop": 4,
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 205,
@@ -1547,7 +1712,9 @@
         "pattern": "qq18 sq17 qs36",
         "atbRefresh": 48,
         "drop": 4,
-        "phase2Comment": "Swap-cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-cast on 2nd"
+        }
     },
     {
         "index": 207,
@@ -1590,7 +1757,9 @@
         "pattern": "sq17 ss18 qs26",
         "atbRefresh": 43,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 213,
@@ -1612,7 +1781,9 @@
         "pattern": "qs52 ss18 qs26",
         "atbRefresh": 49,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 216,
@@ -1620,7 +1791,9 @@
         "pattern": "b qs72 ss18 qq34",
         "atbRefresh": 31,
         "drop": 4,
-        "phase1Comment": "Queue Thunder ASAP"
+        "notes": {
+            "Phase 1": "Queue Thunder ASAP"
+        }
     },
     {
         "index": 217,
@@ -1642,7 +1815,9 @@
         "pattern": "ss18 qs18 sq18",
         "atbRefresh": 37,
         "drop": 4,
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 220,
@@ -1657,7 +1832,9 @@
         "pattern": "ss18 qs18 sq18",
         "atbRefresh": 36,
         "drop": 4,
-        "phase1Comment": "Squall first ATB"
+        "notes": {
+            "Phase 1": "Squall first ATB"
+        }
     },
     {
         "index": 222,
@@ -1728,7 +1905,9 @@
         "pattern": "qq18 sq17 qq17",
         "atbRefresh": 26,
         "drop": 4,
-        "phase1Comment": "Quistis first ATB"
+        "notes": {
+            "Phase 1": "Quistis first ATB"
+        }
     },
     {
         "index": 232,
@@ -1736,7 +1915,9 @@
         "pattern": "qq18 qq17 sq24",
         "atbRefresh": 20,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 233,
@@ -1793,7 +1974,9 @@
         "pattern": "b qq34 sq17 qq17",
         "atbRefresh": 21,
         "drop": 4,
-        "phase1Comment": "Queue Thunder ASAP"
+        "notes": {
+            "Phase 1": "Queue Thunder ASAP"
+        }
     },
     {
         "index": 241,
@@ -1815,7 +1998,9 @@
         "pattern": "ss16 qs36 qq18",
         "atbRefresh": 8,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 244,
@@ -1830,7 +2015,9 @@
         "pattern": "s qs17 qs36 qq18",
         "atbRefresh": 8,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 246,
@@ -1838,7 +2025,9 @@
         "pattern": "ss24 qs36 qq18",
         "atbRefresh": 9,
         "drop": 4,
-        "phase3Comment": "If Fish attack between Thunders: ATB refresh 5"
+        "notes": {
+            "Phase 3": "If Fish attack between Thunders: ATB refresh 5"
+        }
     },
     {
         "index": 247,
@@ -1846,7 +2035,9 @@
         "pattern": "ss25 qs36 qq18",
         "atbRefresh": 8,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     },
     {
         "index": 248,
@@ -1903,6 +2094,8 @@
         "pattern": "b qs34 qq36 ss26",
         "atbRefresh": 5,
         "drop": 4,
-        "phase2Comment": "Swap-Cast on 2nd"
+        "notes": {
+            "Phase 2": "Swap-Cast on 2nd"
+        }
     }
 ]
