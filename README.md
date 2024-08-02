@@ -2,7 +2,7 @@
 
 Final Fantasy 8 fish fin manipulation calculator.
 
-[Access the live tool](https://galbadia.garden/fish-fins)
+[Access the live tool](https://tools.ff8.wiki/fish-fins)
 
 ## Usage/Examples
 
