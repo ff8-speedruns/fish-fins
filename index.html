@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/fish-fins/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FF8 Fish Fins</title>
-    <script type="module" crossorigin src="/fish-fins/assets/index-c4703bb0.js"></script>
+    <meta name="description" content="Table lookup for the FF8 fish fin manipulation." />
+    <title>FF8 Fish Fin Manipulation</title>
+    <script>
+      // Resolve the saved colour scheme before first paint. Shared key, so the
+      // choice carries over from the hub. See @ff8-speedruns/ui.
+      try {
+        var s = window.localStorage.getItem('ff8-color-scheme');
+        var scheme = s === 'light' || s === 'dark' || s === 'auto' ? s : 'auto';
+        document.documentElement.setAttribute(
+          'data-mantine-color-scheme',
+          scheme !== 'auto'
+            ? scheme
+            : window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+        );
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/fish-fins/assets/index-B3MlQpNd.js"></script>
+    <link rel="stylesheet" crossorigin href="/fish-fins/assets/index-An9tqt-F.css">
   </head>
   <body>
     <div id="root"></div>
-    
   </body>
 </html>
