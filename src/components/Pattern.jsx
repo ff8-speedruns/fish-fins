@@ -62,6 +62,10 @@ export default function Pattern({ data, pattern }) {
     // single-line height up front and let the virtualizer measure the real
     // rendered height per row and adjust — the standard approach for
     // variable-content virtualized lists.
+    //
+    // TanStack Virtual intentionally returns fresh handler functions every
+    // render; that's documented library behavior, not a stale-closure bug.
+    // eslint-disable-next-line react-hooks/incompatible-library
     const virtualizer = useVirtualizer({
         count: elements.length,
         getScrollElement: () => scrollRef.current,
