@@ -1,22 +1,26 @@
-import { MantineProvider, ColorSchemeProvider } from '@mantine/core';
-import { useHotkeys, useLocalStorage } from '@mantine/hooks';
-import Shell from "./components/Shell";
+import { useState } from 'react';
+import { useDebouncedValue } from '@mantine/hooks';
+import { ToolShell } from '@ff8-speedruns/ui';
+import Searchbar from './components/Searchbar';
+import Pattern from './components/Pattern';
+import data from './data/data.json';
 
 export default function App() {
-  const [colorScheme, setColorScheme] = useLocalStorage({
-    key: 'mantine-color-scheme',
-    defaultValue: 'light',
-    getInitialValueInEffect: true,
-  });
-
-  const toggleColorScheme = (value) => setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'));
-  useHotkeys([['mod+J', () => toggleColorScheme()]]); 
+  const [searchPattern, setSearchPattern] = useState('');
+  // The search box itself stays instant (it's uncontrolled — see Searchbar);
+  // only the expensive filter + table re-render waits for typing to pause.
+  const [debouncedPattern] = useDebouncedValue(searchPattern, 150);
 
   return (
-    <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-      <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
-        <Shell />
-      </MantineProvider>
-    </ColorSchemeProvider>
-  )
+    <ToolShell
+      title="Fish Fin Manipulation"
+      status="working"
+      repo="fish-fins"
+      credits="awesomeWaves, Thomas_8989, Bodcap, Kiitoksia, Brofar."
+      links={[{ label: 'How-to', href: 'https://www.youtube.com/watch?v=zjAdvzRooLw' }]}
+    >
+      <Searchbar onChange={setSearchPattern} />
+      <Pattern data={data} pattern={debouncedPattern} />
+    </ToolShell>
+  );
 }

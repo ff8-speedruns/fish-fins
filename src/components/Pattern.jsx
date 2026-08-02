@@ -1,51 +1,119 @@
-import { Table } from '@mantine/core';
+import { memo, useRef } from 'react';
+import { useVirtualizer } from '@tanstack/react-virtual';
+import { Box, Text } from '@mantine/core';
 import PropTypes from 'prop-types';
 
-export default function Pattern(props) {
-    let searchPattern = props.pattern;
-    const data = props.data;
+// Shared between the header and every row so columns always line up.
+const COLUMNS = [
+    { key: 'index', label: 'Index', flex: '0 0 4.5rem' },
+    { key: 'pattern', label: 'Pattern', flex: '0 0 10rem' },
+    { key: 'atbRefresh', label: 'ATB', flex: '0 0 4.5rem' },
+    { key: 'drop', label: 'Drop', flex: '0 0 4.5rem' },
+    { key: 'notes', label: 'Notes', flex: '1 1 auto' },
+];
 
-    // Remove all whitespace
-    searchPattern = searchPattern.trim();
-    searchPattern = searchPattern.replace(/ /g, '');
+const PatternRow = memo(function PatternRow({ element, index, start, measureElement }) {
+    return (
+        <div
+            ref={measureElement}
+            data-index={index}
+            role="row"
+            className="ff8-vtable-row"
+            style={{ transform: `translateY(${start}px)` }}
+        >
+            <div role="cell" className="ff8-vtable-cell" style={{ flex: COLUMNS[0].flex }}>
+                {element.index}
+            </div>
+            <div role="cell" className="ff8-vtable-cell" style={{ flex: COLUMNS[1].flex }}>
+                {element.pattern}
+            </div>
+            <div role="cell" className="ff8-vtable-cell" style={{ flex: COLUMNS[2].flex }}>
+                {element.atbRefresh}
+            </div>
+            <div role="cell" className="ff8-vtable-cell" style={{ flex: COLUMNS[3].flex }}>
+                {element.drop}
+            </div>
+            <div role="cell" className="ff8-vtable-cell" style={{ flex: COLUMNS[4].flex }}>
+                {Object.entries(element.notes ?? {}).map(([note, value]) => (
+                    <div key={note}>{`${note}: ${value}`}</div>
+                ))}
+            </div>
+        </div>
+    );
+});
 
-    // Do the filter
-    const elements = data.filter(element => element.pattern.toLowerCase().replace(/ /g, '').startsWith(searchPattern.toLowerCase()));
+PatternRow.propTypes = {
+    element: PropTypes.object.isRequired,
+    index: PropTypes.number.isRequired,
+    start: PropTypes.number.isRequired,
+    measureElement: PropTypes.func.isRequired,
+};
 
-    const rows = elements.map((element) => {
-        let notes = [];
+export default function Pattern({ data, pattern }) {
+    const searchPattern = pattern.replace(/\s/g, '').toLowerCase();
 
-        for (const note in element.notes) {
-            notes.push(<div key={note}>{note + ": " + element.notes[note]}</div>)
-        }
+    const elements = data.filter((element) =>
+        element.pattern.replace(/\s/g, '').toLowerCase().startsWith(searchPattern)
+    );
 
-        return (
-            <tr key={element.index}>
-                <td>{element.index}</td>
-                <td>{element.pattern}</td>
-                <td>{element.atbRefresh}</td>
-                <td>{element.drop}</td>
-                <td>{notes}</td>
-            </tr>);
+    const scrollRef = useRef(null);
+
+    // Rows vary in height (a fin can have 0-2 note lines), so we estimate a
+    // single-line height up front and let the virtualizer measure the real
+    // rendered height per row and adjust — the standard approach for
+    // variable-content virtualized lists.
+    const virtualizer = useVirtualizer({
+        count: elements.length,
+        getScrollElement: () => scrollRef.current,
+        estimateSize: () => 44,
+        overscan: 8,
+        getItemKey: (index) => elements[index].index,
     });
 
     return (
-        <Table>
-            <thead>
-                <tr>
-                    <th>Index</th>
-                    <th>Pattern</th>
-                    <th>ATB</th>
-                    <th>Drop</th>
-                    <th>Notes</th>
-                </tr>
-            </thead>
-            <tbody>{rows}</tbody>
-        </Table>
+        <>
+            <Box className="ff8-vtable" role="table" aria-label="Fish fin patterns" mt="md">
+                <div className="ff8-vtable-head" role="row">
+                    {COLUMNS.map((column) => (
+                        <div
+                            key={column.key}
+                            role="columnheader"
+                            className="ff8-vtable-cell"
+                            style={{ flex: column.flex }}
+                        >
+                            {column.label}
+                        </div>
+                    ))}
+                </div>
+
+                <div ref={scrollRef} className="ff8-vtable-scroll" style={{ height: 480 }}>
+                    <div
+                        role="rowgroup"
+                        className="ff8-vtable-body"
+                        style={{ height: virtualizer.getTotalSize() }}
+                    >
+                        {virtualizer.getVirtualItems().map((virtualRow) => (
+                            <PatternRow
+                                key={virtualRow.key}
+                                element={elements[virtualRow.index]}
+                                index={virtualRow.index}
+                                start={virtualRow.start}
+                                measureElement={virtualizer.measureElement}
+                            />
+                        ))}
+                    </div>
+                </div>
+            </Box>
+            {elements.length === 0 && (
+                <Text c="dimmed" ta="center" py="lg">
+                    No pattern matches “{pattern}”.
+                </Text>
+            )}
+        </>
     );
 }
 
 Pattern.propTypes = {
     data: PropTypes.arrayOf(PropTypes.object),
     pattern: PropTypes.string
-}
+};
