@@ -1,5 +1,5 @@
 {
-  "name": "fish-fins-react-jsx",
+  "name": "fish-fins",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,23 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@mantine/core": "^6.0.20",
-    "@mantine/hooks": "^6.0.20",
-    "@tabler/icons-react": "^2.34.0",
-    "gh-pages": "^6.0.0",
+    "@ff8-speedruns/ui": "github:ff8-speedruns/ff8-ui#semver:^1.1.0",
+    "@mantine/core": "^9.5.0",
+    "@mantine/hooks": "^9.5.0",
+    "@tabler/icons-react": "^3.46.0",
+    "@tanstack/react-virtual": "^3.14.9",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "vite": "^4.4.5"
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.0.5",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "vite": "^8.2.0"
   }
 }

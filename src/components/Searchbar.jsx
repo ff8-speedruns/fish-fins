@@ -1,27 +1,20 @@
-import { Input, Group } from '@mantine/core';
+import { TextInput } from '@mantine/core';
 import { IconFish } from '@tabler/icons-react';
 import PropTypes from 'prop-types';
 
-export default function Searchbar(props) {
-    function handleChange(event) {
-        let newSearchText = event.target.value;
-        //this.setState({ searchText: newSearchText });
-        if (props.onChange) props.onChange(newSearchText);
-    }
-
+export default function Searchbar({ onChange }) {
     return (
-        <Group grow>
-            <Input
-                icon={<IconFish />}
-                placeholder="Pattern"
-                radius="xl"
-                size="lg"
-                onChange={handleChange}
-            />
-        </Group>
+        <TextInput
+            leftSection={<IconFish />}
+            placeholder="Pattern"
+            radius="xl"
+            size="lg"
+            aria-label="Search fin patterns"
+            onChange={(event) => onChange?.(event.currentTarget.value)}
+        />
     );
 }
 
 Searchbar.propTypes = {
     onChange: PropTypes.func
-}
+};
