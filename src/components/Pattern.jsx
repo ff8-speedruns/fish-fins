@@ -60,7 +60,7 @@ export default function Pattern({ data, pattern }) {
 
     // Rows vary in height (a fin can have 0-2 note lines), so we estimate a
     // single-line height up front and let the virtualizer measure the real
-    // rendered height per row and adjust — the standard approach for
+    // rendered height per row and adjust - the standard approach for
     // variable-content virtualized lists.
     //
     // TanStack Virtual intentionally returns fresh handler functions every

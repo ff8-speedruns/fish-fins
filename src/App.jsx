@@ -7,7 +7,7 @@ import data from './data/data.json';
 
 export default function App() {
   const [searchPattern, setSearchPattern] = useState('');
-  // The search box itself stays instant (it's uncontrolled — see Searchbar);
+  // The search box itself stays instant (it's uncontrolled - see Searchbar);
   // only the expensive filter + table re-render waits for typing to pause.
   const [debouncedPattern] = useDebouncedValue(searchPattern, 150);
 
